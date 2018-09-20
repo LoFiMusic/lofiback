@@ -1,0 +1,11 @@
+__pycache__
+
+__pycache__/*
+
+*.pyc
+
+error.log
+
+.DS_Store
+
+static_files/*
