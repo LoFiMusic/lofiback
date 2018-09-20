@@ -16,7 +16,7 @@ DB_HOST=Database Host
 DB_PORT=Database Port
 S_DEBUG=Debug True\False
 ```
-######Replase value lofiback/settings.py
+Replase value lofiback/settings.py
 ```
 SECRET_KEY = 'value_key'
 ```
