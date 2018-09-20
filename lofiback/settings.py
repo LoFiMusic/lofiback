@@ -67,7 +67,7 @@ LOGGING = {
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECKEY')
+SECRET_KEY = '*(qi2^67--t7g^b#4@amwxlpmawg2a@o^^6zm@pyhvui$44r!$'
 #
 
 # SECURITY WARNING: don't run with debug turned on in production!

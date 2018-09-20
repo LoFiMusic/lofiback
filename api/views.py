@@ -35,11 +35,12 @@ def RandomTrack(request):
 @csrf_exempt
 def TouchLike(request):
     if request.method == 'POST':
+        info = {"Track":"Liked"}
         data = JSONParser().parse(request)
-        music = Music.objects.get(id=data.pk)
-        music.likes = like.likes+1
-        music.save()
-        return JsonResponse(serializer.data, status=201)
+        track = Music.objects.get(id=data['id'])
+        track.likes = track.likes+1
+        track.save()
+        return JsonResponse(info, status=201)
 
     elif request.method == 'GET':
         info = {"Info":"Method not allowed"}

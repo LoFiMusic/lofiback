@@ -24,5 +24,5 @@ urlpatterns = [
     path('', views.Index, name='Index Page'),
     path('api/v1/playlist/', views.GenPlaylist, name='Playlist Page'),
     path('api/v1/random/', views.RandomTrack, name='Random Track'),
-    path('api/v1/like/', views.TouchLike, name='Touch with like track')
+    path('api/v1/like/', views.TouchLike, name='Touch with like track'),
 ]

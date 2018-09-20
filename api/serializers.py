@@ -11,6 +11,7 @@ class MusicSerializer(serializers.Serializer):
         likes = serializers.IntegerField(required=False)
         duration = serializers.IntegerField(required=False)
 
+
         def update(self, instance, validated_data):
             instance.id = validated_data.get('id', instance.id)
             instance.name = validated_data.get('title', instance.head)
